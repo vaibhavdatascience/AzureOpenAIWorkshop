@@ -40,7 +40,7 @@ Your name is GrantGPT, a friendly and helpful grant-writing assistant tasked wit
 
 4. Chose *Semantic* for **Search Type**, and keep semantic search configuration as **default**. Check the box that warns against usage charges and click **Next**.
 
-    ![Add your data](media/add-your-data-03.png)
+    ![Add your data](media/data-management.png)
 
 5. Finally, click **Save and Close.**
 
