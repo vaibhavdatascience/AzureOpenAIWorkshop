@@ -11,44 +11,20 @@ In this workshop, you will learn how to leverage the Azure OpenAI service to cre
 The following prerequisites must be completed before you start these labs
 
 - WI-FI enabled Laptop
-- A Microsoft 365 hosted mailbox
-- You must be connected to the internet
-- Use either Edge or Chrome when executing the labs.
-- Access to an Azure Subscription with Owner or [Contributor Access](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-steps)
+- You must be connected to the internet.
 
-- Approved access to Azure OpenAI service in your Azure subscription. You can request access [here](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)
-
-
-  **IMPORTANT**:
-    - Only use your institutions/organization email. Do not use a personal email address (Example: @gmail.com, hotmail.com, etc.)
-    - Authorization can take up to 10 business days.
-
-
-- [Azure Open AI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal) already provisioned and **GPT-35-turbo-16k** model deployed.
-  For this lab, we recommend **North Central US or East US** region for your Azure Open AI deployment.
-
-- Required Resource Providers [How to Register Azure Services](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
-
-  - Microsoft.Search
-  - Microsoft.Web
-  - Microsoft.Authorization
-  - Microsoft.CognitiveServices
-  - Microsoft.CognitiveSearch
-  - Microsoft.ManagedIdentity
-  - Microsoft.KeyVault
-  - Microsoft.Storage
-  - Microsoft.Insights
-  - Microsoft.App
-  - Microsoft.Logic
-  - Microsoft.BotService
-
-- [VS Code](https://code.visualstudio.com/download) installed on your computer.
-
-
-
-## Before you begin
-
-  [Retrieve your Azure OpenAI endpoint and keys](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-python#retrieve-key-and-endpoint) and copy them to notepad for future reference as you will be using them throughout the labs.
+# Before you begin
+You will need to start Azure Lab Services Virtual Machine. Please follow the instructions below to start the VM:
+- Go to https://labs.azure.com
+- Click on `Sign in with Microsoft Account`
+- Enter the credentials provider to you by the instructor.
+- Once logged in, you will see the lab virtual machine. If your virtual machine is not started, click on `stopped` button.
+- The virtual machine will initiate the start process and you will see the status changed to `Starting`.
+- Once Started, you will see the status change to `Running`
+- Click on the `Connect` button to connect to the virtual machine. This will download a RDP file.
+- Dobule click on the RDP file to connect to the virtual machine and click on `Connect`.
+- Provide the `password` provided to you by the instructor to login.
+- Once logged in, please open the `Microsoft Edge` browser. Github Repo for the workshop and Azure Portal are already added to the home page of the browser.
 
 ## Agenda
 
@@ -59,18 +35,18 @@ The following prerequisites must be completed before you start these labs
 | [Lab 3: Chat with your database](/labs/Lab_Data_Analytics/README.md) | 45 min |
 | [Lab 4: Chat with your documents](/labs/Lab_chatWithDocuments/README.md) | 60 min |
 
-
 ## Format
 
 - Instructor will run through an overview of solutions and steps
-- Audience will then build the solution in their environment
+- Audience will then build the solution in their environment.
 
 ## Audience
 
-- Power Users
+- Researchers and Developers
 - Software Engineers
 - Data Scientists
 - Solution Architects
+- Students
 
 ## Contributing
 
